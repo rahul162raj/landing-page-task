@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+}
+
+.border-pattern{
+    background: url(./Path.svg);
+    width: 100%;
+    transform: rotate(180deg);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 1450px 160px;
+    height: 0;
+    padding: 0;
+    padding-bottom: 140px;
+}
+
+.welcome {
+    background-color: #0948b3 !important;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.paragraph {
+    margin-top: 60px;
+}
+
+.section-content {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+.title {
+    padding-top: 90px;
+    font-size: 40px;
+}
+
+.action-button{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.action-button > button{
+    padding: 0px 32px;
+    font-size: 24px;
+    background-color: sandybrown;
+}
+
+
+.section-description{
+    position: relative;
+}
+
+.descrtiption-img{
+    max-width: 100%;
+    margin-top: -160px;
+}
